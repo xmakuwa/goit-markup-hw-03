@@ -303,7 +303,7 @@ ol {
 }
 .buttons-container {
 	display: flex;
-    flex-direction: column;
+	flex-direction: column;
 }
 .portfolio-section-one {
 	padding: 96px 0 120px 0;
