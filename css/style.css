@@ -302,10 +302,10 @@ ol {
 	color: var(--txt-color);
 }
 .buttons-container {
-	padding-top: 96px;
-	padding-bottom: 120px;
+	display: flex;
+    flex-direction: column;
 }
-.portfolio-first-section {
+.portfolio-section-one {
 	padding: 96px 0 120px 0;
 }
 .btn-list {
@@ -343,6 +343,8 @@ ol {
 	flex-wrap: wrap;
 	column-gap: 24px;
 	row-gap: 48px;
+	margin: 0;
+	padding: 0;
 }
 .portfolio-2nd-list {
 	flex-basis: calc((100% - 48px) / 3);
